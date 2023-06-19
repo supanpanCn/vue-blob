@@ -1,0 +1,14 @@
+
+/yarn-error.log
+/yarn.lock
+
+/dist
+
+.DS_Store
+
+/.vscode
+
+node_modules/
+
+
+
