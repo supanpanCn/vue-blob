@@ -1,18 +1,16 @@
-<template>
-    登陆页面
-</template>
+<template>登陆页面</template>
 
 <script lang="ts" setup>
-import { useStorage } from 'web-localstorage-plus'
-import useLoginStore from '@/store/login.ts'
+import { useStorage } from 'web-localstorage-plus';
+import useLoginStore from '@/store/login';
 
-const store = useLoginStore()
+const store = useLoginStore();
 
-console.log(store.spp)
+console.log(store.spp);
 
-const storage = useStorage()
-storage.setItem('user',{
-    name:'spp',
-    age:28
-})
+var storage = useStorage();
+storage.setItem('user', {
+    name: 'spp',
+    age: 28,
+});
 </script>

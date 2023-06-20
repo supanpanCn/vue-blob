@@ -1,20 +1,22 @@
 <template>
-  <div class="root-app">
-    <RouterView />
-    <div class="spp">
-      <el-button type="primary">Primary</el-button>
+    <div class="root-app">
+        <RouterView />
+        <div class="spp">
+            <el-button type="primary"> Primary </el-button>
+        </div>
     </div>
-  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import './c.js';
+</script>
 
 <style lang="less" scoped>
 .root-app {
-  .spp {
-    width: 300px;
-    height: 300px;
-    background-color: red;
-  }
+    .spp {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+    }
 }
 </style>
