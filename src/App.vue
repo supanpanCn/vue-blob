@@ -7,11 +7,9 @@
     </div>
 </template>
 
-<script setup lang="ts">
-import './c.js';
-</script>
+<script setup lang="ts"></script>
 
-<style lang="less" scoped>
+<style lang="less">
 .root-app {
     .spp {
         width: 300px;

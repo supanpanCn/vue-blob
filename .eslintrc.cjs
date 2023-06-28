@@ -1,26 +1,28 @@
-const mode = process.env.NODE_ENV
+const mode = process.env.NODE_ENV;
 module.exports = {
-  parser: 'vue-eslint-parser',
-  parserOptions: {
-      parser: '@typescript-eslint/parser',
-      ecmaVersion: 2020,
-      sourceType: 'module',
-      ecmaFeatures: {
-          jsx: true
-      }
-  },
-  env: {
-    node: true
-  },
-  extends: [
-      'plugin:vue/vue3-recommended',
-      'plugin:@typescript-eslint/recommended',
-      'prettier',
-      'plugin:prettier/recommended'
-  ],
+    parser: 'vue-eslint-parser',
+    parserOptions: {
+        parser: '@typescript-eslint/parser',
+        ecmaVersion: 2020,
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+        },
+    },
+    env: {
+        node: true,
+    },
+    extends: [
+        'plugin:vue/vue3-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'prettier',
+        'plugin:prettier/recommended',
+    ],
 
-  rules: {
-      "no-console": mode === 'production' ? "error" : "off",
-      "vue/multi-word-component-names":"off"
-  }
+    rules: {
+        'no-console': mode === 'production' ? 'error' : 'off',
+        'vue/multi-word-component-names': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+    },
 };

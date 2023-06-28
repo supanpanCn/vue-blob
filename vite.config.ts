@@ -4,19 +4,17 @@ import { resolve } from 'node:path';
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
-import eslint from '@rollup/plugin-eslint';
+import eslint from '@nabla/vite-plugin-eslint';
 
 export default defineConfig({
     plugins: [
+        eslint(),
         vue(),
         AutoImport({
             resolvers: [ElementPlusResolver()],
         }),
         Components({
             resolvers: [ElementPlusResolver()],
-        }),
-        eslint({
-            include: ['src/**'],
         }),
     ],
     resolve: {

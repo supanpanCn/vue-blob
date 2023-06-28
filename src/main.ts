@@ -8,8 +8,6 @@ createStorage({
     rootName: 'spp-storage',
 });
 
-console.log(1);
-
 const app = createApp(App);
 app.use(pinia);
 app.use(router);
