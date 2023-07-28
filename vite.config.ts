@@ -5,6 +5,9 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 import eslint from '@nabla/vite-plugin-eslint';
+import { getPlugin } from '@web-localstorage-plus/pinia';
+
+const piniaHmrPlugin = getPlugin('vite');
 
 export default defineConfig({
     plugins: [
@@ -13,6 +16,7 @@ export default defineConfig({
         AutoImport({
             resolvers: [ElementPlusResolver()],
         }),
+        piniaHmrPlugin(resolve(__dirname, 'src/store')),
         Components({
             resolvers: [ElementPlusResolver()],
         }),
