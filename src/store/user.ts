@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 const useStore = defineStore('user', {
     state() {
         return {
-            age: 102,
+            age: 1023,
         };
     },
     actions: {

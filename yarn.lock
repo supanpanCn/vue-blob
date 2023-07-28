@@ -391,7 +391,7 @@
 
 "@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.13", "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
-  resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
+  resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
 "@jridgewell/trace-mapping@0.3.9":
@@ -769,10 +769,10 @@
   dependencies:
     vue-demi "*"
 
-"@web-localstorage-plus/pinia@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@web-localstorage-plus/pinia/-/pinia-0.0.1.tgz#56fcd17b4967318a09480fc6b1f8a14edb7f7ed3"
-  integrity sha512-ED3w4dZuu50O6Fo6RfYPbPln4a8wMPE2oxlH8N1+pFjqXuomrWiiI8xFowgzHxX2fBSTm0flrlO+LK/czigotQ==
+"@web-localstorage-plus/pinia@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/@web-localstorage-plus/pinia/-/pinia-0.0.3.tgz#b967fc4942389eb81af74501fff24144df88112f"
+  integrity sha512-GbVatTAkaEBktF1vTSb+zi3Xnn29x4IDcRDL+tmGhLWI//jsQa74sPlP+aFy1/R3FzFcCj2w37Z0gG9bgy8mnQ==
   dependencies:
     lodash "^4.17.21"
     magic-string "^0.30.1"

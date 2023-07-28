@@ -26,6 +26,7 @@ const useStore = defineStore('spp33', {
     },
     persist: {
         paths: ['spp', 'age', 'c.d.e', 'c.d', 'c.d.g'],
+        key: 'test',
     },
 });
 
