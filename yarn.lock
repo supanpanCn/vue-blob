@@ -769,10 +769,10 @@
   dependencies:
     vue-demi "*"
 
-"@web-localstorage-plus/pinia@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/@web-localstorage-plus/pinia/-/pinia-0.0.4.tgz#9298aa2d927193cf4f1b38734f728b663339957f"
-  integrity sha512-6sHXQDLrEbaX2BYipehpL/Bn5YWPNTHRms+svfLR2drOPJdrV99IsqnwsNv2ObxCGnVN925blxAO7qIuzmF7pQ==
+"@web-localstorage-plus/pinia@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/@web-localstorage-plus/pinia/-/pinia-0.0.5.tgz#bb3db5bdfbac74ae9230670ffad15b20493c3dc4"
+  integrity sha512-lKOOCoNpcePCjVWTOagjSqhojm54h7wmNWLFxUQ9IAKXaCTWJv7b9UPg4HrPHx9mRBJY6NDwQZXO47SbnDERJQ==
   dependencies:
     lodash "^4.17.21"
     magic-string "^0.30.1"
