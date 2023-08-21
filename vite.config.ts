@@ -6,7 +6,7 @@ import Components from 'unplugin-vue-components/vite';
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 import eslint from '@nabla/vite-plugin-eslint';
 import { getPlugin } from '@web-localstorage-plus/pinia';
-
+import { offline } from '@web-localstorage-plus/offline';
 const piniaHmrPlugin = getPlugin('vite');
 
 export default defineConfig({
@@ -20,6 +20,7 @@ export default defineConfig({
         Components({
             resolvers: [ElementPlusResolver()],
         }),
+        offline(),
     ],
     resolve: {
         alias: {

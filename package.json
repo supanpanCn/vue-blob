@@ -18,13 +18,14 @@
   },
   "dependencies": {
     "@types/node": "^20.3.1",
+    "@web-localstorage-plus/offline": "^0.0.0",
     "@web-localstorage-plus/pinia": "^0.0.6",
     "axios": "^1.4.0",
     "element-plus": "^2.3.6",
     "pinia": "^2.1.4",
     "vue": "^3.2.47",
     "vue-router": "4",
-    "web-localstorage-plus": "^0.0.14"
+    "web-localstorage-plus": "0.0.19"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",

@@ -769,6 +769,16 @@
   dependencies:
     vue-demi "*"
 
+"@web-localstorage-plus/offline@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.npmjs.org/@web-localstorage-plus/offline/-/offline-0.0.0.tgz#87689db7e2d36fd1e4f99d74c8fb7530b2e882e2"
+  integrity sha512-2gzD5s7wu4wRU3fsUyMqTTEGah3G+hcU87gkw6v1zHjZOhnPC6M6n2jktbngOhgndi9Eu//8a1NVVmyC8DsKbA==
+  dependencies:
+    displace-comments "^1.0.8"
+    lodash "^4.17.21"
+    magic-string "^0.30.1"
+    web-localstorage-plus "0.0.17"
+
 "@web-localstorage-plus/pinia@^0.0.6":
   version "0.0.6"
   resolved "https://packages.aliyun.com/5fb61b7b9936d4e364614ee3/npm/npm-registry/@web-localstorage-plus/pinia/-/pinia-0.0.6.tgz#d0c1c07f941caf29ba4fb29961e9b805da0cb3e6"
@@ -1251,6 +1261,11 @@ dir-glob@^3.0.1:
   integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
   dependencies:
     path-type "^4.0.0"
+
+displace-comments@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/displace-comments/-/displace-comments-1.0.8.tgz#8a046eae385a6404e4f4bbc0842bd47b481f09f0"
+  integrity sha512-LBdKlSXSp0Ho81kurfp9eFiGT5jhEzz+9g+17ALst8Oa0/G0oICAUhQbzJCu3iWGv34AhOWh35YxLSzYEbwylw==
 
 doctrine@^3.0.0:
   version "3.0.0"
@@ -2747,9 +2762,9 @@ rimraf@^3.0.2:
     glob "^7.1.3"
 
 rollup@^3.27.1:
-  version "3.26.3"
-  resolved "https://packages.aliyun.com/5fb61b7b9936d4e364614ee3/npm/npm-registry/rollup/-/rollup-3.26.3.tgz#bbc8818cadd0aebca348dbb3d68d296d220967b8"
-  integrity sha512-7Tin0C8l86TkpcMtXvQu6saWH93nhG3dGQ1/+l5V2TDMceTxO7kDiK6GzbfLWNNxqJXm591PcEZUozZm51ogwQ==
+  version "3.28.0"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-3.28.0.tgz#a3c70004b01934760c0cb8df717c7a1d932389a2"
+  integrity sha512-d7zhvo1OUY2SXSM6pfNjgD5+d0Nz87CUp4mt8l/GgVP3oBsPwzNvSzyu1me6BSG9JIgWNTVcafIXBIyM8yQ3yw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -3262,12 +3277,15 @@ vue@^3.2.47:
     "@vue/server-renderer" "3.3.4"
     "@vue/shared" "3.3.4"
 
-web-localstorage-plus@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/web-localstorage-plus/-/web-localstorage-plus-0.0.14.tgz#4e0ccd8285698f0595f7e1f605837dde83677469"
-  integrity sha512-dbjHLhRSqjWm33picF5+qh1Fc9uRXtNnWvUseSEewxNmlrtxVtmUrc4L7oSujdRe6uLCbPEhXXd0kOFUpEQjFQ==
-  dependencies:
-    lodash-es "^4.17.21"
+web-localstorage-plus@0.0.17:
+  version "0.0.17"
+  resolved "https://registry.npmjs.org/web-localstorage-plus/-/web-localstorage-plus-0.0.17.tgz#951861f0733f10c5e68c82b55f8824217f8850c8"
+  integrity sha512-qG9fHUyJ+jiGRY8tsQuMc9bZALrcQWyw9wmY608VCNF2hV0tWiAPGK0+mO7/gv/g0kJx70f+tEeXjDV23MFc2w==
+
+web-localstorage-plus@0.0.19:
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/web-localstorage-plus/-/web-localstorage-plus-0.0.19.tgz#c220609231433ea659bff738d8c81a38797b0835"
+  integrity sha512-5iIZSQYdK3M5n0l026Jhf2OGKZLXeV5TZ4O42rET2O8ZiORU9CNVdJTBNC4BAXmfP5SJ44lm80TVRIqnU/ymOg==
 
 web-localstorage-plus@^0.0.15:
   version "0.0.15"
